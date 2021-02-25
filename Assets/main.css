@@ -1,0 +1,150 @@
+body {
+  background-color: #1B191C;
+  color: #c8c8c8;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  padding: 20px 0px 0px 0px;
+  line-height: 1.45em;
+  font-size: 16pt;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 50pt;
+  color: #b6ab4f;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 26pt;
+  font-weight: lighter;
+  padding-bottom: 40px;
+  width: 85%;
+  color: #656866;
+}
+
+h4 {
+  font-family: sans-serif;
+  color: #656866;
+}
+
+cite {
+  font-size: 1.5em;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+.imgdiv {
+  margin-top: 40px;
+  width: 50%;
+}
+
+img {
+  border: 1px solid #000;
+}
+
+/* breakpoint 1 */
+@media screen and (max-width: 1024px) { 
+  h1 {
+    font-size: 53pt;
+    font-family: timesnewroman;
+    color: darkgreen;
+  }
+
+  h2 {
+    font-size: 20pt;
+    color: darkseagreen;
+  }
+
+  p {
+    font-size: 15.5pt;
+    color: springgreen;
+  }
+
+  img {
+    width: 550px;
+  }
+}
+
+/* breakpoint 2 */
+@media screen and (max-width: 768px) { 
+  h1 {
+    font-size: 45pt;
+    font-family: monospace;
+    color: coral;
+  }
+
+  h2 {
+    font-size: 20pt;
+    color: red;
+  }
+
+  p {
+    font-size: 14.5pt;
+    color: tomato;
+  }
+
+  img {
+    width: 450px;
+  }
+}
+
+/* breakpoint 3 */
+@media screen and (max-width: 600px) { 
+  h1 {
+    font-size: 40pt;
+    font-family: cursive;
+    color: mediumorchid;
+  }
+
+  h2 {
+    font-size: 15pt;
+    color: hotpink;
+  }
+
+  p {
+    font-size: 13pt;
+    color: deepskyblue;
+  }
+
+  img {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
